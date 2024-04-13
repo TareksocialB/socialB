@@ -1,5 +1,6 @@
 import random
-from dotenv import load_dotenv
+
+# from dotenv import load_dotenv
 from seleniumbase import Driver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
@@ -11,7 +12,7 @@ import time
 from instagrapi import Client
 import pickle
 
-load_dotenv()
+# load_dotenv()
 
 email = os.environ["EMAIL"]
 password = os.environ["PASSWORD"]
