@@ -5,6 +5,11 @@ on: [push, workflow_dispatch]
 #   schedule:
 #     - cron: '*/45 * * * *'
 
+env:
+  my_email: ${{ secrets.EMAIL }}
+  my_password: ${{ secrets.PASSWORD }}
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
