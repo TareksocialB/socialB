@@ -14,10 +14,7 @@ import pickle
 
 # load_dotenv()
 
-email = os.environ["my_email"]
-password = os.environ["my_password"]
-print(email)
-print(password)
+
 # email_insta = os.getenv("EMAIL_INSTA")
 # password_insta = os.getenv("PASSWORD_INSTA")
 
@@ -31,9 +28,12 @@ driver = Driver(
     user_data_dir="./CookiesFolderUcHeaded/",
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
-
-
 # pause = input("Pause")
+email = os.environ["my_email"]
+password = os.environ["my_password"]
+# print(email)
+# print(password)
+
 driver.implicitly_wait(10)
 
 
