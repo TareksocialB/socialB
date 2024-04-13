@@ -1,9 +1,9 @@
 name : UbuntuMachine
 
-# on: [push, workflow_dispatch]
-on:
-  schedule:
-    - cron: '*/45 * * * *'
+on: [push, workflow_dispatch]
+# on:
+#   schedule:
+#     - cron: '*/45 * * * *'
 
 jobs:
   build:

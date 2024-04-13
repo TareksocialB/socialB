@@ -12,8 +12,9 @@ from instagrapi import Client
 import pickle
 
 load_dotenv()
-email = os.getenv("EMAIL")
-password = os.getenv("PASSWORD")
+
+email = os.environ["EMAIL"]
+password = os.environ["PASSWORD"]
 # email_insta = os.getenv("EMAIL_INSTA")
 # password_insta = os.getenv("PASSWORD_INSTA")
 
