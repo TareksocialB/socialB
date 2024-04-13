@@ -1,0 +1,8 @@
+2024/04/12-04:07:46.320 3105 Reusing MANIFEST /home/tarek/Desktop/socialB/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/12-04:07:46.321 3105 Recovering log #38
+2024/04/12-04:07:46.338 3105 Level-0 table #41: started
+2024/04/12-04:07:46.629 3105 Level-0 table #41: 62816 bytes OK
+2024/04/12-04:07:46.629 3105 Recovering log #41
+2024/04/12-04:07:46.630 3105 Reusing old log /home/tarek/Desktop/socialB/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000041.log 
+2024/04/12-04:07:46.679 3105 Delete type=2 #42
+2024/04/12-04:07:46.679 3105 Delete type=0 #38

@@ -1,0 +1,49 @@
+name : UbuntuMachine
+
+# on: [push, workflow_dispatch]
+on:
+  schedule:
+    - cron: '45 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Install dependencies
+      run: |
+          export DEBIAN_FRONTEND=noninteractive
+          sudo apt-get update
+          sudo apt-get install -y python3-pip xvfb
+          pip3 install --upgrade pip
+          pip3 install seleniumbase
+          sudo apt install sshpass
+          pip3 install python-dotenv
+          pip3 install instagrapi
+          pip3 install Pillow
+          # sudo apt install tor
+
+    # - name: SSH proxy
+    #   if : "!cancelled()"
+      
+    #   run: |
+    #     touch /tmp/proxyfile
+    #     proxyfile=/tmp/proxyfile
+        
+    #     sshpass -p ${{ secrets.SSH_PASS }} ssh -o "StrictHostKeyChecking=no" -D 1337 -N -C tarek@tarekmadara.ddns.net &
+    #     echo "export http_proxy=socks5://127.0.0.1:1337" >> $proxyfile
+    #     sleep 10
+
+    - name: curl two
+      run: |
+        # source /tmp/proxyfile
+        curl ipinfo.io
+        xvfb-run --server-args="-screen 0 1024x768x24" python3 -u clicker.py
+          
+           
