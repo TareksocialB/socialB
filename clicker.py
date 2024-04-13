@@ -16,6 +16,8 @@ import pickle
 
 email = os.environ["my_email"]
 password = os.environ["my_password"]
+print(email)
+print(password)
 # email_insta = os.getenv("EMAIL_INSTA")
 # password_insta = os.getenv("PASSWORD_INSTA")
 
