@@ -16,7 +16,8 @@ import pickle
 
 email = os.environ["my_email"]
 password = os.environ["my_password"]
-
+print(email)
+print(password)
 # email_insta = os.getenv("EMAIL_INSTA")
 # password_insta = os.getenv("PASSWORD_INSTA")
 
@@ -493,8 +494,7 @@ def test():
 
 
 def main():
-    print("EMAIL :",email)
-    print("Pass :", password)
+
     iter = 0
     fbLinks = [
         "https://www.like4like.org/user/earn-facebook-subscribes.php",
