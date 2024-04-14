@@ -3,7 +3,7 @@ name : UbuntuMachine
 # on: [push, workflow_dispatch]
 on:
   schedule:
-    - cron: '50 * * * *'
+    - cron: '29 * * * *'
 
 env:
   my_email: ${{ secrets.EMAIL }}
