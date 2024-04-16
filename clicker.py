@@ -522,6 +522,8 @@ jobs = [
     pinterestFollow,
     soundcloudFollow,
     soundcloudLike,
+    youtubeFollow,
+    youtubeLike
 ]
 
 
