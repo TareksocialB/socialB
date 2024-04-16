@@ -29,8 +29,8 @@ driver = Driver(
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
 # pause = input("Pause")
-email = os.environ["my_email"]
-password = os.environ["my_password"]
+# email = os.environ["my_email"]
+# password = os.environ["my_password"]
 # print(email)
 # print(password)
 
@@ -501,7 +501,7 @@ def main():
         "https://www.like4like.org/user/earn-facebook-user-follow.php",
     ]
     likeLoggin()
-    # pause = input("Pause")
+
     while iter < 3:
         iter += 1
         print("[+]  ITER ===> ", iter)
