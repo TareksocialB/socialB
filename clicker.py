@@ -29,8 +29,8 @@ driver = Driver(
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
 # pause = input("Pause")
-# email = os.environ["my_email"]
-# password = os.environ["my_password"]
+email = os.environ["my_email"]
+password = os.environ["my_password"]
 # print(email)
 # print(password)
 
@@ -71,11 +71,15 @@ def getRandomPauseTime():
     return random.randint(180, 230)
 
 
-def youtubeFollow():
+def youtubeFollow(driver=driver):
+    # link =
+    # driver.get(link)
+    # getRandSleepTime()
+    # button = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
     pass
 
 
-def youtubeLike():
+def youtubeLike(driver=driver):
     pass
 
 
