@@ -1,3 +1,9 @@
-2024/04/16-13:44:14.522 1355 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/16-13:44:14.524 1355 Recovering log #52
-2024/04/16-13:44:14.525 1355 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000052.log 
+2024/04/16-13:44:58.495 147b Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/16-13:44:58.500 147b Recovering log #52
+2024/04/16-13:44:58.501 147b Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000052.log 
+2024/04/16-13:46:16.955 147f Level-0 table #55: started
+2024/04/16-13:46:17.018 147f Level-0 table #55: 43085 bytes OK
+2024/04/16-13:46:17.071 147f Delete type=0 #52
+2024/04/16-13:46:55.185 147b Level-0 table #57: started
+2024/04/16-13:46:55.281 147b Level-0 table #57: 25626 bytes OK
+2024/04/16-13:46:55.369 147b Delete type=0 #54

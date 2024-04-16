@@ -28,7 +28,7 @@ driver = Driver(
     user_data_dir="./CookiesFolderUcHeaded/",
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
-# pause = input("Pause")
+pause = input("Pause")
 email = os.environ["my_email"]
 password = os.environ["my_password"]
 # print(email)
@@ -72,15 +72,53 @@ def getRandomPauseTime():
 
 
 def youtubeFollow(driver=driver):
-    # link =
-    # driver.get(link)
-    # getRandSleepTime()
-    # button = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
-    pass
+    link = "https://www.like4like.org/user/earn-youtube-subscribe.php"
+
+    driver.get(link)
+    getRandSleepTime()
+
+    driver.click(".pulse-checkBox")
+    driver.switch_to.window(driver.window_handles[1])
+
+    getRandSleepTime()
+    button = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+
+    try:
+        action = ActionChains(driver)
+        ActionChains(driver).move_to_element(button).click(button).perform()
+        print("[+] Youtube Follow")
+
+    except Exception as e:
+        print("[-] Failed to youtube follow", e)
+        pass
+    getRandSleepTime()
+    getRandSleepTime()
+
+    driver.close()
 
 
 def youtubeLike(driver=driver):
-    pass
+    link = "https://www.like4like.org/user/earn-youtube.php"
+    driver.get(link)
+    getRandSleepTime()
+
+    driver.click(".pulse-checkBox")
+    driver.switch_to.window(driver.window_handles[1])
+    button = "#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+
+    getRandSleepTime()
+
+    try:
+        action = ActionChains(driver)
+        ActionChains(driver).move_to_element(button).click(button).perform()
+        print("[+] Youtube Like")
+    except Exception as e:
+        print("[-] Failed to youtube Like ", e)
+
+    getRandSleepTime()
+    getRandSleepTime()
+
+    driver.close()
 
 
 def TwitterFollow(driver=driver):
