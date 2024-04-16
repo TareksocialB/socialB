@@ -81,7 +81,8 @@ def youtubeFollow(driver=driver):
     driver.switch_to.window(driver.window_handles[1])
 
     getRandSleepTime()
-    button = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+    selector = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+    button = driver.find_elements(By.CSS_SELECTOR, selector)[0]
 
     try:
         action = ActionChains(driver)
@@ -104,7 +105,8 @@ def youtubeLike(driver=driver):
 
     driver.click(".pulse-checkBox")
     driver.switch_to.window(driver.window_handles[1])
-    button = "#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+    selector = "#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+    button = driver.find_elements(By.CSS_SELECTOR, selector)[0]
 
     getRandSleepTime()
 
@@ -523,7 +525,7 @@ jobs = [
     soundcloudFollow,
     soundcloudLike,
     youtubeFollow,
-    youtubeLike
+    youtubeLike,
 ]
 
 
