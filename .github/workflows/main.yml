@@ -1,9 +1,9 @@
 name : UbuntuMachine
 
-# on: [push, workflow_dispatch]
-on:
-  schedule:
-    - cron: '*/32 * * * *'
+on: [push, workflow_dispatch]
+# on:
+#   schedule:
+#     - cron: '*/32 * * * *'
 
 env:
   my_email: ${{ secrets.EMAIL }}
