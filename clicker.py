@@ -539,14 +539,14 @@ jobs = [
 ]
 
 
-def test():
-    likeLoggin()
-    getSmallRandSleepTime()
-    youtubeLike()
-    Submit()
+# def test():
+#     likeLoggin()
+#     getSmallRandSleepTime()
+#     youtubeLike()
+#     Submit()
 
 
-test()
+# test()
 
 
 def main():
@@ -581,5 +581,5 @@ def main():
     quit()
 
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
