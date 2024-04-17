@@ -90,8 +90,6 @@ def youtubeFollow(driver=driver):
         for elem in buttons:
             if elem.text == "S'abonner":
                 button = elem
-            else:
-                raise IndexError
             action = ActionChains(driver)
             ActionChains(driver).move_to_element(button).click(button).perform()
             print("[+] Youtube Follow")
