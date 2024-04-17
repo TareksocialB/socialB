@@ -28,9 +28,11 @@ driver = Driver(
     user_data_dir="./CookiesFolderUcHeaded/",
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
-# pause = input("Pause")
 email = os.environ["my_email"]
 password = os.environ["my_password"]
+
+
+# pause = input("Pause")
 # print(email)
 # print(password)
 
@@ -82,12 +84,17 @@ def youtubeFollow(driver=driver):
 
     getRandSleepTime()
     selector = "#subscribe-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
-    button = driver.find_elements(By.CSS_SELECTOR, selector)[0]
+    buttons = driver.find_elements(By.CSS_SELECTOR, selector)
 
     try:
-        action = ActionChains(driver)
-        ActionChains(driver).move_to_element(button).click(button).perform()
-        print("[+] Youtube Follow")
+        for elem in buttons:
+            if elem.text == "S'abonner":
+                button = elem
+            else:
+                raise IndexError
+            action = ActionChains(driver)
+            ActionChains(driver).move_to_element(button).click(button).perform()
+            print("[+] Youtube Follow")
 
     except Exception as e:
         print("[-] Failed to youtube follow", e)
@@ -105,9 +112,12 @@ def youtubeLike(driver=driver):
 
     driver.click(".pulse-checkBox")
     driver.switch_to.window(driver.window_handles[1])
+    getRandSleepTime()
+    getRandSleepTime()
+
     selector = "#top-level-buttons-computed > segmented-like-dislike-button-view-model > yt-smartimation > div > div > like-button-view-model > toggle-button-view-model > button-view-model > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
     button = driver.find_elements(By.CSS_SELECTOR, selector)[0]
-
+    print(button)
     getRandSleepTime()
 
     try:
@@ -532,11 +542,11 @@ jobs = [
 def test():
     likeLoggin()
     getSmallRandSleepTime()
-    soundcloudFollow()
+    youtubeLike()
     Submit()
 
 
-# test()
+test()
 
 
 def main():
@@ -571,5 +581,5 @@ def main():
     quit()
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

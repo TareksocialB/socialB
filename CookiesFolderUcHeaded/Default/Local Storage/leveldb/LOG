@@ -1,17 +1,3 @@
-2024/04/16-15:52:43.326 2a62 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/16-15:52:43.337 2a62 Recovering log #56
-2024/04/16-15:52:43.340 2a62 Level-0 table #59: started
-2024/04/16-15:52:43.385 2a62 Level-0 table #59: 104536 bytes OK
-2024/04/16-15:52:43.437 2a62 Delete type=0 #56
-2024/04/16-15:52:43.439 2a64 Compacting 4@0 + 1@1 files
-2024/04/16-15:52:43.482 2a64 Generated table #61@0: 604 keys, 263058 bytes
-2024/04/16-15:52:43.482 2a64 Compacted 4@0 + 1@1 files => 263058 bytes
-2024/04/16-15:52:43.542 2a64 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/04/16-15:52:43.548 2a64 Delete type=2 #55
-2024/04/16-15:52:43.549 2a64 Delete type=2 #59
-2024/04/16-15:52:43.549 2a64 Delete type=2 #57
-2024/04/16-15:52:43.549 2a64 Delete type=2 #49
-2024/04/16-15:52:43.549 2a64 Delete type=2 #51
-2024/04/16-15:53:01.821 2a64 Level-0 table #63: started
-2024/04/16-15:53:01.937 2a64 Level-0 table #63: 84165 bytes OK
-2024/04/16-15:53:02.128 2a64 Delete type=0 #60
+2024/04/17-14:39:05.438 1ce4 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/17-14:39:05.440 1ce4 Recovering log #66
+2024/04/17-14:39:05.441 1ce4 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000066.log 
