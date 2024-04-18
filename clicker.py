@@ -28,11 +28,12 @@ driver = Driver(
     user_data_dir="./CookiesFolderUcHeaded/",
     chromium_arg="--disable-blink-features=AutomationControlled",
 )
+pause = input("Pause")
+
 email = os.environ["my_email"]
 password = os.environ["my_password"]
 
 
-# pause = input("Pause")
 # print(email)
 # print(password)
 

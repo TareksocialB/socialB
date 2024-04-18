@@ -1,3 +1,14 @@
-2024/04/17-14:39:16.629 1cd6 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/04/17-14:39:16.630 1cd6 Recovering log #28
-2024/04/17-14:39:16.633 1cd6 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000028.log 
+2024/04/17-14:43:43.663 1cd7 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/04/17-14:43:43.663 1cd7 Recovering log #28
+2024/04/17-14:43:43.668 1cd7 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000028.log 
+2024/04/17-14:44:06.579 1ccd Level-0 table #33: started
+2024/04/17-14:44:06.716 1ccd Level-0 table #33: 119671 bytes OK
+2024/04/17-14:44:06.904 1ccd Delete type=0 #28
+2024/04/17-14:44:06.906 1ccd Manual compaction at level-0 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/04/17-14:44:06.906 1ccd Manual compaction at level-1 from '\x00\x0f\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at '\x00\x17\x01\x01\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 7668 : 1
+2024/04/17-14:44:06.906 1ccd Compacting 1@1 + 1@2 files
+2024/04/17-14:44:07.218 1ccd Generated table #34@1: 400 keys, 20938 bytes
+2024/04/17-14:44:07.219 1ccd Compacted 1@1 + 1@2 files => 20938 bytes
+2024/04/17-14:44:08.628 1ccd compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/04/17-14:44:08.629 1ccd Delete type=2 #33
+2024/04/17-14:44:08.630 1ccd Manual compaction at level-1 from '\x00\x17\x01\x01\x04\x02\x01\x17\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00:\x00t\x00o\x00p\x00b\x00a\x00r\x00:\x00f\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 7668 : 1 .. '\x00\x10\x00\x00\x00' @ 0 : 0; will stop at (end)
