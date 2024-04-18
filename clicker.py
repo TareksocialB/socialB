@@ -219,11 +219,14 @@ def tiktokLike(driver=driver):
 
     try:
         # button = driver.find_element(By.CSS_SELECTOR,"#main-content-video_detail > div > div.css-12kupwv-DivContentContainer.ege8lhx2 > div.css-1senhbu-DivLeftContainer.ege8lhx3 > div.css-1sb4dwc-DivPlayerContainer.eqrezik4 > div.css-ty9aj4-DivVideoContainer.eqrezik7 > div.css-79f36w-DivActionBarWrapper.eqrezik8 > div > button:nth-child(1)")
-
-        # ActionChains(driver).move_to_element(button).click(button)
-        driver.click(
-            "#main-content-video_detail > div > div.css-12kupwv-DivContentContainer.ege8lhx2 > div.css-1senhbu-DivLeftContainer.ege8lhx3 > div.css-1sb4dwc-DivPlayerContainer.eqrezik4 > div.css-ty9aj4-DivVideoContainer.eqrezik7 > div.css-79f36w-DivActionBarWrapper.eqrezik8 > div > button:nth-child(1)"
-        )
+        button = driver.find_elements(By.XPATH, '//button/span[@data-e2e="like-icon"]')[
+            0
+        ]
+        ActionChains(driver).move_to_element(button).click(button).perform()
+        # driver.click()
+        # driver.click(
+        #     "#main-content-video_detail > div > div.css-12kupwv-DivContentContainer.ege8lhx2 > div.css-1senhbu-DivLeftContainer.ege8lhx3 > div.css-1sb4dwc-DivPlayerContainer.eqrezik4 > div.css-ty9aj4-DivVideoContainer.eqrezik7 > div.css-79f36w-DivActionBarWrapper.eqrezik8 > div > button:nth-child(1)"
+        # )
         print("[+] Tiktok Like")
     except Exception as e:
         print("Failed to tiktokLike :", e)
