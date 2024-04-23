@@ -1,6 +1,18 @@
-2024/04/20-13:17:08.224 13b6 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
-2024/04/20-13:17:08.225 13b6 Recovering log #66
-2024/04/20-13:17:08.240 13b6 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000066.log 
-2024/04/20-13:19:08.985 13b6 Level-0 table #69: started
-2024/04/20-13:19:09.073 13b6 Level-0 table #69: 40702 bytes OK
-2024/04/20-13:19:09.238 13b6 Delete type=0 #66
+2024/04/22-14:21:19.108 10f6 Reusing MANIFEST /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/04/22-14:21:19.112 10f6 Recovering log #68
+2024/04/22-14:21:19.131 10f6 Reusing old log /home/tarek/Desktop/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000068.log 
+2024/04/22-14:28:33.080 10f6 Level-0 table #72: started
+2024/04/22-14:28:33.141 10f6 Level-0 table #72: 21905 bytes OK
+2024/04/22-14:28:33.252 10f6 Delete type=0 #68
+2024/04/22-14:28:33.253 10f6 Compacting 4@0 + 1@1 files
+2024/04/22-14:28:33.317 10f6 Generated table #73@0: 671 keys, 204635 bytes
+2024/04/22-14:28:33.317 10f6 Compacted 4@0 + 1@1 files => 204635 bytes
+2024/04/22-14:28:33.378 10f6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/04/22-14:28:33.380 10f6 Delete type=2 #72
+2024/04/22-14:28:33.380 10f6 Delete type=2 #61
+2024/04/22-14:28:33.380 10f6 Delete type=2 #65
+2024/04/22-14:28:33.380 10f6 Delete type=2 #63
+2024/04/22-14:28:33.381 10f6 Delete type=2 #69
+2024/04/22-14:28:55.453 10f6 Level-0 table #75: started
+2024/04/22-14:28:55.533 10f6 Level-0 table #75: 59205 bytes OK
+2024/04/22-14:28:55.597 10f6 Delete type=0 #71
