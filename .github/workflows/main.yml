@@ -2,6 +2,7 @@ name : UbuntuMachine
 
 # on: [push, workflow_dispatch]
 on:
+  push:
   schedule:
     - cron: '*/47 * * * *'
 
@@ -24,11 +25,11 @@ jobs:
     - name: Install dependencies
       run: |
           export DEBIAN_FRONTEND=noninteractive
-          sudo apt-get update
+          # sudo apt-get update
           sudo apt-get install -y python3-pip xvfb
           pip3 install --upgrade pip
           pip3 install seleniumbase
-          sudo apt install sshpass
+          # sudo apt install sshpass
           pip3 install python-dotenv
           pip3 install instagrapi
           pip3 install Pillow
