@@ -2,7 +2,7 @@ name : UbuntuMachine
 
 # on: [push, workflow_dispatch]
 on:
-  push:
+  # push:
   schedule:
     - cron: '*/47 * * * *'
 
