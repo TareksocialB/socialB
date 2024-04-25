@@ -1,3 +1,6 @@
-2024/04/24-12:06:26.147 2408 Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/MANIFEST-000001
-2024/04/24-12:06:26.148 2408 Recovering log #13
-2024/04/24-12:06:26.493 2408 Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/000013.log 
+2024/04/25-15:25:54.559 3353 Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/MANIFEST-000001
+2024/04/25-15:25:54.562 3353 Recovering log #13
+2024/04/25-15:25:54.571 3353 Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/000013.log 
+2024/04/25-15:28:03.171 3355 Level-0 table #17: started
+2024/04/25-15:28:03.228 3355 Level-0 table #17: 21019 bytes OK
+2024/04/25-15:28:03.292 3355 Delete type=0 #13
