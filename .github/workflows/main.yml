@@ -4,7 +4,7 @@ name : UbuntuMachine
 on:
   # push:
   schedule:
-    - cron: '*/47 * * * *'
+    - cron: '*/53 * * * *'
 
 env:
   my_email: ${{ secrets.EMAIL }}
