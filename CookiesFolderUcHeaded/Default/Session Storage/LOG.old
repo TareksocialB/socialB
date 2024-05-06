@@ -1,5 +1,17 @@
-2024/05/04-18:01:57.868 1938 Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/MANIFEST-000001
-2024/05/04-18:01:57.870 1938 Recovering log #16
-2024/05/04-18:01:57.871 1938 Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/000016.log 
-2024/05/04-18:04:29.000 1a47 Level-0 table #20: started
-2024/05/04-18:04:30.536 1a47 Level-0 table #20: 19911 bytes OK
+2024/05/05-15:09:35.770 11ea Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/MANIFEST-000001
+2024/05/05-15:09:35.772 11ea Recovering log #16
+2024/05/05-15:09:35.773 11ea Level-0 table #19: started
+2024/05/05-15:09:35.950 11ea Level-0 table #19: 19911 bytes OK
+2024/05/05-15:09:35.951 11ea Recovering log #19
+2024/05/05-15:09:35.951 11ea Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Session Storage/000019.log 
+2024/05/05-15:09:36.182 11ea Delete type=0 #16
+2024/05/05-15:09:36.184 11ea Delete type=2 #20
+2024/05/05-15:09:36.189 11ec Compacting 4@0 + 1@1 files
+2024/05/05-15:09:36.382 11ec Generated table #20@0: 1368 keys, 25060 bytes
+2024/05/05-15:09:36.382 11ec Compacted 4@0 + 1@1 files => 25060 bytes
+2024/05/05-15:09:37.002 11ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/05-15:09:37.010 11ec Delete type=2 #17
+2024/05/05-15:09:37.011 11ec Delete type=2 #14
+2024/05/05-15:09:37.011 11ec Delete type=2 #8
+2024/05/05-15:09:37.011 11ec Delete type=2 #19
+2024/05/05-15:09:37.011 11ec Delete type=2 #11
