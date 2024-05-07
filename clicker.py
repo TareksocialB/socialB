@@ -71,7 +71,7 @@ def actionType(driver=driver, selector=None, text=None):
 
 
 def getRandomPauseTime():
-    return random.randint(180, 230)
+    return random.randint(60, 190)
 
 
 def youtubeFollow(driver=driver):
@@ -560,7 +560,7 @@ def main():
     ]
     likeLoggin()
 
-    while iter < 3:
+    while iter < 5:
         iter += 1
         print("[+]  ITER ===> ", iter)
 
