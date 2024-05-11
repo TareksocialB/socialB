@@ -1,3 +1,19 @@
-2024/05/09-10:56:32.246 cc8 Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
-2024/05/09-10:56:32.247 cc8 Recovering log #102
-2024/05/09-10:56:32.248 cc8 Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000102.log 
+2024/05/10-11:50:59.918 e3e Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/10-11:50:59.920 e3e Recovering log #102
+2024/05/10-11:50:59.920 e3e Level-0 table #104: started
+2024/05/10-11:51:00.071 e3e Level-0 table #104: 19254 bytes OK
+2024/05/10-11:51:00.072 e3e Recovering log #104
+2024/05/10-11:51:00.084 e3e Level-0 table #105: started
+2024/05/10-11:51:00.178 e3e Level-0 table #105: 82530 bytes OK
+2024/05/10-11:51:00.363 e3e Delete type=0 #102
+2024/05/10-11:51:00.363 e3e Delete type=0 #104
+2024/05/10-11:51:00.520 e40 Compacting 5@0 + 1@1 files
+2024/05/10-11:51:00.635 e40 Generated table #107@0: 1082 keys, 230140 bytes
+2024/05/10-11:51:00.636 e40 Compacted 5@0 + 1@1 files => 230140 bytes
+2024/05/10-11:51:00.825 e40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/10-11:51:00.829 e40 Delete type=2 #105
+2024/05/10-11:51:00.830 e40 Delete type=2 #101
+2024/05/10-11:51:00.830 e40 Delete type=2 #94
+2024/05/10-11:51:00.830 e40 Delete type=2 #99
+2024/05/10-11:51:00.831 e40 Delete type=2 #96
+2024/05/10-11:51:00.831 e40 Delete type=2 #104
