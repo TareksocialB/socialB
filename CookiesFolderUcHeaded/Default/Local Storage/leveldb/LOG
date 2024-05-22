@@ -1,3 +1,6 @@
-2024/05/21-11:53:52.603 10a0 Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
-2024/05/21-11:53:52.605 10a0 Recovering log #125
-2024/05/21-11:53:52.626 10a0 Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000125.log 
+2024/05/22-12:00:30.002 cfb Reusing MANIFEST /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/22-12:00:30.003 cfb Recovering log #125
+2024/05/22-12:00:30.305 cfb Reusing old log /home/tarek/Desktop/repos/TarekHere/CookiesFolderUcHeaded/Default/Local Storage/leveldb/000125.log 
+2024/05/22-12:05:54.252 cfd Level-0 table #128: started
+2024/05/22-12:05:54.468 cfd Level-0 table #128: 25493 bytes OK
+2024/05/22-12:05:54.689 cfd Delete type=0 #125
